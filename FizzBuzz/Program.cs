@@ -14,7 +14,7 @@ class Program
         runner.AddFilter(new DivisibleFilter(3, "Fizz"));
         runner.AddFilter(new DivisibleFilter(5, "Buzz"));
 
-        foreach(String result in runner.Run(5,3))
+        foreach(String result in runner.Run(100))
             Console.WriteLine(result);
 
         Console.ReadKey();
